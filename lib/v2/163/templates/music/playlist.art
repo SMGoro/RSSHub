@@ -1,5 +1,5 @@
 歌手：{{ singer }}<br>
 专辑：{{ album }}<br>
 {{ if date }}发行日期：{{ date }}<br>{{ /if }}
-{{ iframe }}
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=450 src="{{ iframe }}"></iframe>
 <img src="{{ picUrl }}">
